@@ -1,0 +1,131 @@
+
+body{
+	background-color: #F2F2F2;
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+#cabecera{
+	
+	
+	height: 100px;
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	width: 47%;
+	max-width: 1400px;
+	min-width: 640px;
+}
+
+#cuerpo{
+	
+	position: relative;
+	width: 47%;
+	max-width: 1400px;
+	min-width: 640px;
+	height: 600px;
+	margin: 10px auto;
+	padding: 20px;
+	
+}
+
+#cuerpo input {
+	position: relative;
+}
+
+#menu{
+	border-top: 2px solid;
+	border-top-color: #04B4AE;
+	border-bottom: 2px solid;
+	border-bottom-color: #04B4AE;
+	position: relative;
+	width: 47%;
+	max-width: 1400px;
+	min-width: 640px;
+	text-align: center;
+	margin: 10px auto;
+	
+
+}
+
+#menu > ul >li{
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	margin: 0 50px;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	font: 20px impact;
+	display: block;
+	color: #04B4AE;
+}
+
+#cabecera > header h1{
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #777;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+
+}
+
+#cabecera > header{
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+input {
+	width: 300px;
+	margin: 20px;
+	display: block;
+	padding: 10px;
+}
+
+textarea{
+	width: 300px;
+	margin: 60px;
+	padding: 10px;	
+	height: 200px;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	box-shadow: 0 1px 3px 1px gray;
+}
+#btnEnviar{
+	width: auto;
+	margin: 20px;
+}
+td{
+	margin: 20px;
+}
+#cuadros{
+	padding: 100px 75px;
+	background-image: url('../images/1cat.jpg');
+}
+
+#decoraciones{
+	padding: 100px 52px;
+	background-image: url('../images/2cat.jpg');
+}
+table{
+
+	border: 20px solid ;
+	border-color: #F2F2F2;
+}
