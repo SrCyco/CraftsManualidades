@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Crafts Manualidades</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slideshow with jmpress.js" />
+        <meta name="keywords" content="jmpress, slideshow, container, plugin, jquery, css3" />
+        <meta name="author" content="for Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+		<![endif]-->
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<!-- jmpress plugin -->
+		<script type="text/javascript" src="js/jmpress.min.js"></script>
+		<!-- jmslideshow plugin : extends the jmpress plugin -->
+		<script type="text/javascript" src="js/jquery.jmslideshow.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.48780.js"></script>
+		<noscript>
+			<style>
+			.step {
+				width: 100%;
+				position: relative;
+			}
+			.step:not(.active) {
+				opacity: 1;
+				filter: alpha(opacity=99);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+			}
+			.step:not(.active) a.jms-link{
+				opacity: 1;
+				margin-top: 40px;
+			}
+			</style>
+		</noscript>
+    </head>
+    <body>
+        <div class="container">
+			<!-- Codrops top bar -->
+          	<header id ="cabecera">
+				<h1>CRAFTS</h1>
+				<hr>
+				<h2>Creatividad a tus servicios</h2>
+			</header>
+			<nav id = "menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="contact.html">Contactenos</a></li>
+				</ul>
+			</nav>
+			<section id="jms-slideshow" class="jms-slideshow">
+				<div class="step" data-color="color-1">
+					<div class="jms-content">
+						<h3>Cuadros decorativos</h3>
+						<p>Para adornar las paredes de tu casa, con temas especificos (Navidad, halloween...) </p>
+						<a class="jms-link" href="cuadrosDecorativos.html">Ver más </a>
+					</div>
+					<img src="images/1.jpg" width ="360" heigth ="360"/>
+				</div>
+				<div class="step" data-color="color-2" >
+					<div class="jms-content">
+						<h3>Decoraciones en Foami e Icopor</h3>
+						<p>But as the riper should by time decease, his tender heir might bear his memory</p>
+						<a class="jms-link" href="#">Ver mas</a>
+					</div>
+					<img src="images/2.jpg" width ="250" heigth ="250"/>
+				</div>
+				<div class="step" data-color="color-3">
+					<div class="jms-content">
+						<h3>Proyectos escolares</h3>
+						<p>Within thine own bud buriest thy content and, tender churl, makest waste in niggarding</p>
+						<a class="jms-link" href="#">Ver mas</a>
+					</div>
+					<img src="images/3.jpg" width ="360" heigth ="360"/>
+				</div>
+				<div class="step" data-color="color-4">
+					<div class="jms-content">
+						<h3>Origami y Plastilina</h3>
+						<p>Making a famine where abundance lies, thyself thy foe, to thy sweet self too cruel</p>
+						<a class="jms-link" href="#">Ver mas</a>
+					</div>
+					<img src="images/4.jpg" width ="250" heigth ="250"/>
+				</div>
+				<div class="step" data-color="color-5">
+					<div class="jms-content">
+						<h3>Piñatas personalizadas</h3>
+						<p>Thou that art now the world's fresh ornament and only herald to the gaudy spring</p>
+						<a class="jms-link" href="#">Ver mas</a>
+					</div>
+					<img src="images/5.jpg" width ="250" heigth ="250"/>
+				</div>
+			</section>
+        </div>
+		<script type="text/javascript">
+			$(function() {
+			
+				$( '#jms-slideshow' ).jmslideshow();
+				
+			});
+		</script>
+    </body>
+</html>
